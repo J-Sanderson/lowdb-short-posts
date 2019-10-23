@@ -1,0 +1,38 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  background: #001427;
+  background-image: radial-gradient(#00004b, #001427, black);
+  color: #deefff;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+a:link, a:visited {
+  color: #48a4ff;
+}
+
+form, .entry {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 3px black;
+}
+
+form > * {
+  display: block;
+  margin: 5px;
+}
